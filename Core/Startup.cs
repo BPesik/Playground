@@ -22,7 +22,7 @@ namespace Core
         {
             services.AddCors();
             services.AddControllers();
-            services.AddDbContext<TodoContext>(options => options.UseSqlServer("Server=localhost,1401;Database=Playground;User Id=sa;password=YourStrong!Passw0rd;Trusted_Connection=False;"));
+            services.AddDbContext<TodoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TodoDatabase")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

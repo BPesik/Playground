@@ -5019,17 +5019,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bram/Projects/Playground/Core/Core.csproj",
+      "projectUniqueName": "/Users/bram/Git/Playground/Core/Core.csproj",
       "projectName": "Core",
-      "projectPath": "/Users/bram/Projects/Playground/Core/Core.csproj",
+      "projectPath": "/Users/bram/Git/Playground/Core/Core.csproj",
       "packagesPath": "/Users/bram/.nuget/packages/",
-      "outputPath": "/Users/bram/Projects/Playground/Core/obj/",
+      "outputPath": "/Users/bram/Git/Playground/Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/bram/.config/NuGet/NuGet.Config"
+        "/Users/bram/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

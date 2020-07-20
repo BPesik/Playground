@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JL5/38Cb3/dhMF/7lCHIMOe2RK+A3DiLbfy60RJ/7ZS+rBZu41fT7x1CH2YaOpF1ApigVhxgopmSfz/8uvsU3w==",
+  "dgSpecHash": "jnlPBkJIM1lDb8y8xF0bK3qPqlYfcuza+qb7dHhOyx7tefuB8VgaTdVxklRPDzVJMiC+ZVvGLsT3H/oWFUTUPA==",
   "success": true,
-  "projectFilePath": "/Users/bram/Projects/Playground/Core/Core.csproj",
+  "projectFilePath": "/Users/bram/Git/Playground/Core/Core.csproj",
   "expectedPackageFiles": [
     "/Users/bram/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/bram/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
