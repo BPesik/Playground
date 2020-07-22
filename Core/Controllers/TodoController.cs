@@ -21,8 +21,20 @@ namespace Core.Controllers
         {
             var todoRepository = new TodoRepository(_toDoContext);
 
+            return todoRepository.GetAllTodos().Result;
+        }
 
-            return todoRepository.GetAllTodos();
+        [HttpPost]
+        public ActionResult<Todo> AddToDo([FromBody]Todo todo)
+        {
+            if(todo == null)
+            {
+                return NotFound();
+            }
+
+            var todoRepository = new TodoRepository(_toDoContext);
+
+            return todoRepository.AddTodo(todo).Result;
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Core.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Core.Repositories
 {
@@ -13,12 +15,21 @@ namespace Core.Repositories
             _toDoContext = todoContext;
         }
 
-
-        public IEnumerable<Todo> GetAllTodos()
+        public async Task<IEnumerable<Todo>> GetAllTodos()
         {
             using var database = _toDoContext;
 
-            return database.Todos.ToList();
+            return await database.Todos.ToListAsync();
         }   
+
+        public async Task<Todo> AddTodo(Todo todo)
+        {
+            using var database = _toDoContext;
+
+            database.Add(todo);
+            await database.SaveChangesAsync();
+
+            return todo;
+        }
     }
 }

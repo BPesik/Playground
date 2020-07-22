@@ -107,3 +107,8 @@
 /Users/bram/Git/Playground/Core/obj/Debug/netcoreapp3.1/Core.dll
 /Users/bram/Git/Playground/Core/obj/Debug/netcoreapp3.1/Core.pdb
 /Users/bram/Git/Playground/Core/obj/Debug/netcoreapp3.1/Core.genruntimeconfig.cache
+/Users/bram/Git/Playground/Core/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/bram/Git/Playground/Core/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/bram/Git/Playground/Core/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/bram/Git/Playground/Core/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/bram/Git/Playground/Core/obj/Debug/netcoreapp3.1/Core.MvcApplicationPartsAssemblyInfo.cs

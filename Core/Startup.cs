@@ -17,15 +17,16 @@ namespace Core
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
             services.AddControllers();
-            services.AddDbContext<TodoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TodoDatabase")));
+            services.AddDbContext<TodoContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("TodoDatabase"))
+            );
+            services.AddSwaggerGen();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -38,6 +39,14 @@ namespace Core
             );
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options => 
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", 
+                                        "Todo API V1");
+                options.RoutePrefix = string.Empty;
+            });
 
             app.UseRouting();
 
