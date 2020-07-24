@@ -1,4 +1,4 @@
-async function FetchData<T>(): Promise<any> {
+async function FetchData(): Promise<any> {
     const data = await fetch("https://localhost:5001/todo")
         .then(response => {
         if (!response.ok) {

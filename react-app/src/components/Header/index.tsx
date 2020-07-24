@@ -28,13 +28,12 @@ function Header() {
     return (
         <StyledHeader>
             <Title value="Playground" />         
-            <LinkWrapper>
-                
+            <LinkWrapper>        
                 <StyledNavLink to="/About">
                         About
                     </StyledNavLink>
-                    <StyledNavLink to="/Data">
-                        Data
+                    <StyledNavLink to="/Todos">
+                        Todos
                     </StyledNavLink>
             </LinkWrapper>
         </StyledHeader>
