@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Core.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Core.Repositories
@@ -20,7 +22,7 @@ namespace Core.Repositories
             using var database = _toDoContext;
 
             return await database.Todos.ToListAsync();
-        }   
+        }
 
         public async Task<Todo> AddTodo(Todo todo)
         {
@@ -30,6 +32,19 @@ namespace Core.Repositories
             await database.SaveChangesAsync();
 
             return todo;
+        }
+
+        public async Task<Todo> DeleteTodo(Guid id)
+        {
+            using var database = _toDoContext;
+
+            var todoToRemove = database.Todos.SingleOrDefault(x => x.Id == id);
+
+            var rowsDeleted = database.Todos.Remove(todoToRemove);
+
+            await database.SaveChangesAsync();
+
+            return todoToRemove;
         }
     }
 }

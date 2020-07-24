@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Core.Models;
 using Core.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -27,14 +28,24 @@ namespace Core.Controllers
         [HttpPost]
         public ActionResult<Todo> AddToDo([FromBody]Todo todo)
         {
-            if(todo == null)
-            {
-                return NotFound();
-            }
-
             var todoRepository = new TodoRepository(_toDoContext);
 
             return todoRepository.AddTodo(todo).Result;
+        }
+
+        [HttpDelete]
+        public ActionResult<Guid> DeleteTodo([FromQuery]Guid id)
+        {
+            var todoRepository = new TodoRepository(_toDoContext);
+
+            try
+            {
+                return todoRepository.DeleteTodo(id).Result.Id;
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
     }
 }
