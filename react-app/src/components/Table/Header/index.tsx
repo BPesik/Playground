@@ -41,8 +41,14 @@ const StyledSpan = styled.span`
     width: 1;
 `;
 
-function Header(props: HeaderProps) {
-    const { onSelectAllClick, order, orderBy, amountSelected, rowCount, onRequestSort } = props;
+function Header({
+  rowCount,
+  orderBy,
+  order,
+  onSelectAllClick,
+  onRequestSort,
+  amountSelected
+}: HeaderProps) {
     const createSortHandler = (property: keyof Todo) => (event: React.MouseEvent<unknown>) => {
       onRequestSort(event, property);
     };
