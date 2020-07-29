@@ -1,5 +1,4 @@
 import React from 'react';
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import MUITable from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -53,13 +52,13 @@ function Table({ rows }: TableProps) {
     const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
     
-  const handleRequestSort = (property: keyof Todo) => {
+  const onRequestSort = (event: React.MouseEvent<unknown>, property: keyof Todo) => {
     const isAsc = orderBy === property && order === "asc";
     setOrder(isAsc ? "desc" : "asc");
     setOrderBy(property);
   };
 
-  const handleSelectAllClick = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const onSelectAllClick = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.checked) {
       const selectedIds = rows.map((n) => n.id);
       setSelected(selectedIds);
@@ -88,7 +87,7 @@ function Table({ rows }: TableProps) {
     setSelected(newSelected);
   };
 
-  const onChangePage = (newPage: number) => {
+  const onChangePage = (event: unknown, newPage: number) => {
     setPage(newPage);
   };
 
@@ -114,8 +113,8 @@ function Table({ rows }: TableProps) {
               amountSelected={selected.length}
               order={order}
               orderBy={orderBy}
-              onSelectAllClick={handleSelectAllClick}
-              onRequestSort={() => handleRequestSort}
+              onSelectAllClick={onSelectAllClick}
+              onRequestSort={onRequestSort}
               rowCount={rows.length}
             />
             <TableBody>
@@ -144,7 +143,7 @@ function Table({ rows }: TableProps) {
           count={rows.length}
           rowsPerPage={rowsPerPage}
           page={page}
-          onChangePage={() => onChangePage}
+          onChangePage={onChangePage}
           onChangeRowsPerPage={onChangeRowsPerPage}
         />
       </>
