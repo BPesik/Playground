@@ -13,11 +13,17 @@ const Body = styled.div`
 function Todos() {
     const [data, setData] = useState<Todo[]>([]); 
 
+    // will be stored and retrieved from Redux store. 
+    const online = false;
+
     useEffect(() => {
-            // FetchData().then(x => setData(x));    
-        
+        if(online){
+            FetchData().then(x => setData(x));    
+        }
+        else{
             setData(MockedData({numOfTodos: 10}));
-    }, [])
+        }
+    }, [online])
 
     return (
         <Body>
