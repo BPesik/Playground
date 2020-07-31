@@ -1,4 +1,4 @@
-import { UPDATE_ONLINE, UpdateOnlineStatusActionTypes, OnlineStatusState } from './types'
+import { UPDATE_ONLINE, UpdateOnlineStatusActionTypes } from './types'
 
 export function updateOnlineStatus(newStatus: boolean): UpdateOnlineStatusActionTypes {
   return {
