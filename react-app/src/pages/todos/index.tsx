@@ -5,6 +5,8 @@ import { Todo } from "../../types/data"
 import styled from "../../../node_modules/@emotion/styled"
 import Paper from "@material-ui/core/Paper";
 import MockedData from "../../MockData/todos";
+import { useSelector } from "react-redux";
+import { selectOnlineStatus } from "../../store/online-status/selectors";
 
 const Body = styled.div`
     padding: 24px;
@@ -12,18 +14,16 @@ const Body = styled.div`
 
 function Todos() {
     const [data, setData] = useState<Todo[]>([]); 
-
-    // will be stored and retrieved from Redux store. 
-    const online = false;
+    const onlineStatus = useSelector(selectOnlineStatus);
 
     useEffect(() => {
-        if(online){
-            FetchData().then(x => setData(x));    
+        if(onlineStatus){
+            FetchData().then(x => setData(x));
         }
         else{
             setData(MockedData({numOfTodos: 10}));
         }
-    }, [online])
+    }, [onlineStatus])
 
     return (
         <Body>

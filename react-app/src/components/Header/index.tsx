@@ -4,7 +4,8 @@ import OnlineSwitch from "./OnlineSwitch/index"
 import {
     NavLink,
 } from "react-router-dom";
-
+import { updateOnlineStatus } from "../../store/online-status/actions";
+import { useDispatch } from "react-redux";
 
 const StyledHeader = styled.header`
     background-color: #282c34;
@@ -36,8 +37,10 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 function Header() {
+    const dispatch = useDispatch();
+
     function onChange(event: React.ChangeEvent<HTMLInputElement>, checked: boolean){
-        // Implement Redux store and save offline/online state
+        dispatch(updateOnlineStatus(checked));
     }
     
     return (
