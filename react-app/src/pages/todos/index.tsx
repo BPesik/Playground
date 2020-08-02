@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect } from "react"
 import FetchData  from "../../api/dataApi"
 import Table from "../../components/Table"
-import { Todo } from "../../types/data"
 import styled from "../../../node_modules/@emotion/styled"
 import Paper from "@material-ui/core/Paper";
 import MockedData from "../../MockData/todos";
@@ -26,7 +25,7 @@ function Todos() {
         else{
             dispatch(setTodos(MockedData({numOfTodos: 20})));
         }
-    }, [onlineStatus])
+    }, [onlineStatus, dispatch])
 
     return (
         <Body>
