@@ -1,3 +1,3 @@
-import {OnlineStatusState} from "../online-status/types";
+import { State } from "../../store/index";
  
-export const selectOnlineStatus = (state: OnlineStatusState) => state.onlineStatus;
+export const selectOnlineStatus = (state: State) => state.onlineStatus;

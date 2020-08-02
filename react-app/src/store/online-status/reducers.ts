@@ -1,24 +1,19 @@
 import {
     UPDATE_ONLINE,
-    UpdateOnlineStatusActionTypes,
+    OnlineStatusActionTypes,
     OnlineStatusState
 } from './types'
   
-export const initialOnlineStatusState: OnlineStatusState = {
-    onlineStatus: false
-}
+export const initialOnlineStatusState: OnlineStatusState = false;
   
 export function onlineStatusReducer(
     state = initialOnlineStatusState,
-    action: UpdateOnlineStatusActionTypes
+    action: OnlineStatusActionTypes
 ): OnlineStatusState {
     switch (action.type) {
         case UPDATE_ONLINE:
-            return {
-                ...state,
-                ...{ onlineStatus: action.payload }
-            }
+            return action.payload; 
         default:
-            return state
+            return state;
     }
 }
