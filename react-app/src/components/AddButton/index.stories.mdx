@@ -1,0 +1,11 @@
+import AddButton from './index';
+
+<Meta title="Add Button" component={AddButton} argTypes={{color: {control: 'color'}}}/>
+
+# Add Button
+
+export const Template = (args) => <AddButton {...args} />;
+
+<Story name="Primary" args={{color: "grey"}}>
+  {Template.bind({})}
+</Story>

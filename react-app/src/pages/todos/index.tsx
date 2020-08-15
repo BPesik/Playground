@@ -11,12 +11,13 @@ import { setTodos } from "../../store/todos/actions";
 
 const Body = styled.div`
     padding: 24px;
+    margin-bottom: 24px;
 `;
 
 function Todos() {
     const dispatch = useDispatch();
     const onlineStatus = useSelector(selectOnlineStatus);
-    const todos = Object.values(useSelector(selectTodos));
+    const todos = useSelector(selectTodos);
 
     useEffect(() => {
         if(onlineStatus){
