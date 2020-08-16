@@ -12,6 +12,7 @@ import Row from "./Rows/index";
 import { Order } from "./Types/index"
 
 type TableProps = {
+    title: string;
     rows: Todo[];
 }
 
@@ -44,7 +45,7 @@ function stableSort<T>(array: T[], comparator: (a: T, b: T) => number) {
   return stabilizedThis.map((el) => el[0]);
 }
 
-function Table({ rows }: TableProps) {
+function Table({ title, rows }: TableProps) {
   const [order, setOrder] = React.useState<Order>("asc");
   const [orderBy, setOrderBy] = React.useState<keyof Todo>("importance");
   const [selected, setSelected] = React.useState<string[]>([]);
@@ -97,12 +98,12 @@ function Table({ rows }: TableProps) {
   };
   
   const isSelected = (name: string) => selected.indexOf(name) !== -1;
-
+  
   const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
 
   return (
     <>
-      <Toolbar amountSelected={selected.length} title={"What to do..."}/>
+      <Toolbar amountSelected={selected.length} title={title}/>
         <TableContainer>
           <MUITable
             aria-labelledby="tableTitle"

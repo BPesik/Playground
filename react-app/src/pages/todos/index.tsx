@@ -31,7 +31,8 @@ function Todos() {
     return (
         <Body>
             <Paper>
-                <Table rows={todos}/>
+                <Table title="What to do..." 
+                    rows={todos}/>
             </Paper>
         </Body>
     )
