@@ -4,18 +4,29 @@ import styled from "../../../node_modules/@emotion/styled"
 type AddButtonProps = {
     onClick: () => void;
     color: string;
+    size: string; 
 }
 
-function AddButton({ onClick, color }: AddButtonProps){
+function GetSize(size: string){
+    switch(size){
+        case "S": return "32px"
+        case "M": return "40px"
+        case "L": return "48px"
+    }
+}
+
+function AddButton({ onClick, color, size }: AddButtonProps){
+    const pixelSize = GetSize(size);
+
     const StyledButton = styled.button`
         background: ${color};
         border: ${color} 2px solid;
         border-radius: 24px;
         color: white;
         font-size: x-large;
-        height: 40px;
+        height: ${pixelSize};
         outline: none;
-        width: 40px;
+        width: ${pixelSize};
 
         :hover {
             background: white;

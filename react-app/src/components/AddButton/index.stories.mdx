@@ -1,11 +1,34 @@
 import AddButton from './index';
+import { Props } from '@storybook/addon-docs/blocks';
 
-<Meta title="Add Button" component={AddButton} argTypes={{color: {control: 'color'}}}/>
-
-# Add Button
+<Meta title="Add Button" 
+    component={AddButton} 
+    argTypes={{
+        color: { 
+            name: "Color",
+            control: "color"
+        }, 
+        size: { 
+            name: "Size",
+            control: {
+                type: "inline-radio",
+                options: ["S", "M", "L"]
+            }
+        }
+    }}
+/>
 
 export const Template = (args) => <AddButton {...args} />;
 
-<Story name="Primary" args={{color: "grey"}}>
-  {Template.bind({})}
-</Story>
+<Canvas>
+    <Story name="Primary" args={{color: "grey", size: "M"}}>
+        {Template.bind({})}
+    </Story>
+</Canvas>
+
+# Add Button
+
+The primary `add button` requires the following properties:
+
+<Props of={AddButton} />
+
