@@ -1,0 +1,31 @@
+import Table from "./index";
+import { Props } from "@storybook/addon-docs/blocks";
+
+<Meta title="Table" 
+    component={Table} 
+    argTypes={{}}
+/>
+
+export const Template = (args) => <Table {...args} />;
+
+export const rows = [
+    {cells: [{value: "Bram"},{value: "He likes to program"},{value: "Busy"},]},
+    {cells: [{value: "Kanye"},{value: "He is a genius"},{value: "CrayCray"},]},
+    {cells: [{value: "Salma"},{value: "She is the most beautifull lady"},{value: "Slayin"}]}
+];
+
+export const header = {
+    cells:[{value: "Name"}, {value: "Description"}, {value: "Status"}]
+};
+
+<Canvas>
+    <Story name="Primary" args={{dataRows: rows, dataHeader: header}}>
+        {Template.bind({})}
+    </Story>
+</Canvas> 
+
+# Table
+
+The table requires the following properties:
+
+<Props of={Table} />

@@ -4,9 +4,9 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from "@material-ui/core/TableRow";
 import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Checkbox from "@material-ui/core/Checkbox";
-import { Todo } from "../../../types/data";
+import { Todo } from "../../../../types/data";
 import { Order } from "../Types/index";
-import styled from "../../../../node_modules/@emotion/styled";
+import styled from "@emotion/styled";
 
 type HeadCell = {
     disablePadding: boolean;

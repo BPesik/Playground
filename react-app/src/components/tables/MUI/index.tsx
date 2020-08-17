@@ -5,7 +5,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TablePagination from '@material-ui/core/TablePagination';
 import TableRow from '@material-ui/core/TableRow';
-import { Todo } from "../../types/data";
+import { Todo } from "../../../types/data";
 import Toolbar from "./Toolbar/index";
 import Header from "./Header/index";
 import Row from "./Rows/index";

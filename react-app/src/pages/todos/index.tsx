@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import FetchData  from "../../api/dataApi"
-import Table from "../../components/Table"
+import Table from "../../components/tables/MUI/index"
 import styled from "../../../node_modules/@emotion/styled"
 import Paper from "@material-ui/core/Paper";
 import MockedData from "../../MockData/todos";
