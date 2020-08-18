@@ -11,9 +11,9 @@ const Row = styled.tr`
 function renderCells(dataCells: DataCell[]){
     let cells = [];
 
-    for(let i = 0; i < dataCells.length; i++){
+    for(let columnIndex = 0; columnIndex < dataCells.length; columnIndex++){
         cells.push(
-            <DynamicCell dataCell={dataCells[i]}/>
+            <DynamicCell key={`DynamicCell-${columnIndex}`} dataCell={dataCells[columnIndex]}/>
         )
     }
 

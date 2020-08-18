@@ -12,7 +12,7 @@ function renderColumns(dataCells: DataHeaderCell[]) {
 
     for(let columnIndex = 0; columnIndex < dataCells.length; columnIndex++){
         cells.push(
-            <DynamicHeaderCell dataHeaderCell={dataCells[columnIndex]}/>
+            <DynamicHeaderCell key={`DynamicHeaderCell-${columnIndex}`} dataHeaderCell={dataCells[columnIndex]}/>
         )
     }
 
@@ -26,7 +26,7 @@ type DynamicHeaderProps = {
 function DynamicHeader({ dataHeader }: DynamicHeaderProps){
     return(
         <TableHead>
-            <tr>
+            <tr key={`TableHeaderRow`}>
                 {renderColumns(dataHeader.cells)}
             </tr>
         </TableHead>

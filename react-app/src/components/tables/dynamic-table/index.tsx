@@ -12,9 +12,9 @@ const Table = styled.table`
 function renderRows(dataRows: DataRow[]){
     let rows = [];
     
-    for(let i = 0; i < dataRows.length; i++){
+    for(let rowIndex = 0; rowIndex < dataRows.length; rowIndex++){
         rows.push(
-            <DynamicRow dataRow={dataRows[i]}/>
+            <DynamicRow key={`DynamicRow-${rowIndex}`} dataRow={dataRows[rowIndex]}/>
         )
     }
     

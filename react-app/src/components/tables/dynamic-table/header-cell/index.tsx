@@ -9,7 +9,7 @@ text-align: left;
 `;
 
 type DynamicHeaderCellProps = {
-    dataHeaderCell: DataHeaderCell; 
+    dataHeaderCell: DataHeaderCell;
 }
 
 function DynamicHeaderCell({ dataHeaderCell }: DynamicHeaderCellProps){
