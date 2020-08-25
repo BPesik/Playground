@@ -1,9 +1,8 @@
-import React from "react"
-import styled from "../../../node_modules/@emotion/styled"
-import Link from "../Link"
+import React from "react";
+import styled from "@emotion/styled";
 
 const StyledFooter = styled.footer`
-    background-color: #282c34;
+    background-color: grey;
     bottom: 0;
     height: 40px;
     left: 0;
@@ -12,11 +11,21 @@ const StyledFooter = styled.footer`
     width: 100%;
 `;
 
+const Link = styled.a`
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    top: 25%;
+`;
+
 function Footer() {
     return (
-        <StyledFooter>
-            <Link href="https://reactjs.org"
-                        value="Learn React" />
+        <StyledFooter>  
+            <Link href=""
+                target="_blank"
+                rel="noopener noreferrer">
+                    Learn React
+            </Link>
         </StyledFooter>
     )
 }

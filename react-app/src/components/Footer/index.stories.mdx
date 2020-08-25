@@ -1,0 +1,19 @@
+import Footer from "./index";
+import { Props } from "@storybook/addon-docs/blocks";
+
+<Meta title="Footer" 
+    component={Footer} 
+    argTypes={{}}
+/>
+
+export const Template = (args) => <Footer {...args} />;
+
+<Canvas>
+    <Story name="Primary" args={{}}>
+        {Template.bind({})}
+    </Story>
+</Canvas> 
+
+# Footer
+
+The footer component requires no properties
