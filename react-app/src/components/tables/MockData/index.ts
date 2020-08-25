@@ -1,4 +1,4 @@
-import { DataRow, DataCell } from "../../../types/data";
+import { DataRow, DataCell } from "../dynamic-table/types";
 
 export function mockDataColumns(numOfColumns: number) {
     let dataColumns: string[] = [];

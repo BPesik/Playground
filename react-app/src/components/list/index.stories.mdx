@@ -1,0 +1,23 @@
+import List from "./index";
+import { Props } from "@storybook/addon-docs/blocks";
+
+<Meta title="List" 
+    component={List} 
+    argTypes={{}}
+/>
+
+export const Template = (args) => <List {...args} />;
+
+export const items = ["item one", "item two", "item three"];
+
+<Canvas>
+    <Story name="Primary" args={{items: items}}>
+        {Template.bind({})}
+    </Story>
+</Canvas> 
+
+# List
+
+The list component requires the following properties:
+
+<Props of={List} />
