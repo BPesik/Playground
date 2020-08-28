@@ -1,5 +1,5 @@
 import React from "react"
-import Switch from '@material-ui/core/Switch';
+import Switch from "@material-ui/core/Switch";
 import styled from "@emotion/styled"
 
 const Wrapper = styled.div`    

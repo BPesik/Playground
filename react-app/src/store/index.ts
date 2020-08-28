@@ -6,7 +6,7 @@ import { Todo } from "../types/data";
 export type State = {
     onlineStatus: boolean,
     todos: Todo[]
-}
+};
 
 export const initialState: State = {
     onlineStatus: initialOnlineStatusState,

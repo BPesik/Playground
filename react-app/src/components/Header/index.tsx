@@ -1,6 +1,6 @@
-import React from "react"
-import styled from "../../../node_modules/@emotion/styled"
-import OnlineSwitch from "./OnlineSwitch/index"
+import React from "react";
+import styled from "@emotion/styled";
+import OnlineSwitch from "./online-switch/index";
 import {
     NavLink,
 } from "react-router-dom";
@@ -51,11 +51,11 @@ function Header() {
             </TitleWrapper>
             <LinkWrapper>        
                 <StyledNavLink to="/About">
-                        About
-                    </StyledNavLink>
-                    <StyledNavLink to="/Todos">
-                        Todos
-                    </StyledNavLink>
+                    About
+                </StyledNavLink>
+                <StyledNavLink to="/Todos">
+                    Todos
+                </StyledNavLink>
             </LinkWrapper>
         </StyledHeader>
     )
