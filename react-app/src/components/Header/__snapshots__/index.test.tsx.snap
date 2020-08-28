@@ -1,0 +1,3117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The header component should match snapshot 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "css-1gp48l6",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "css-u2ayx9",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "css-j4i0ab",
+            },
+            "children": Array [
+              Object {
+                "data": "PLAYGROUND",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "class": "css-1bce3a6",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "css-1o6ajog",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "ONLINE: ",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "b",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "MuiSwitch-root",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "aria-disabled": "false",
+                          "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiIconButton-label",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "MuiSwitch-track",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                      },
+                      Object {
+                        "attribs": Object {
+                          "class": "MuiSwitch-track",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "aria-disabled": "false",
+                            "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiIconButton-label",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "class": "MuiSwitch-thumb",
+                                    },
+                                    "children": Array [],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-label": "checkbox with default color",
+                                      "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                      "type": "checkbox",
+                                    },
+                                    "children": Array [],
+                                    "name": "input",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "MuiSwitch-root",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "aria-disabled": "false",
+                        "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "MuiIconButton-label",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "aria-label": "checkbox with default color",
+                                "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                "type": "checkbox",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                            },
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiSwitch-thumb",
+                              },
+                              "children": Array [],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "MuiSwitch-track",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiSwitch-track",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "aria-disabled": "false",
+                          "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiIconButton-label",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "span",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "css-1o6ajog",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "ONLINE: ",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "b",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {
+              "class": "css-1bce3a6",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "css-1o6ajog",
+                },
+                "children": Array [
+                  Object {
+                    "data": "ONLINE: ",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "b",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "MuiSwitch-root",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "aria-disabled": "false",
+                        "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "MuiIconButton-label",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "aria-label": "checkbox with default color",
+                                "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                "type": "checkbox",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                            },
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiSwitch-thumb",
+                              },
+                              "children": Array [],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "MuiSwitch-track",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiSwitch-track",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "aria-disabled": "false",
+                          "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiIconButton-label",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "span",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "MuiSwitch-root",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "aria-disabled": "false",
+                      "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "MuiIconButton-label",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "aria-label": "checkbox with default color",
+                              "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                              "type": "checkbox",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": Object {
+                              "attribs": Object {
+                                "class": "MuiSwitch-thumb",
+                              },
+                              "children": Array [],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": [Circular],
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "aria-label": undefined,
+                              "class": undefined,
+                              "type": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "aria-label": undefined,
+                              "class": undefined,
+                              "type": undefined,
+                            },
+                          },
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiSwitch-thumb",
+                            },
+                            "children": Array [],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": Object {
+                              "attribs": Object {
+                                "aria-label": "checkbox with default color",
+                                "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                "type": "checkbox",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": [Circular],
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                            },
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "MuiSwitch-track",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "aria-disabled": undefined,
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "aria-disabled": undefined,
+                      "class": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "MuiSwitch-track",
+                    },
+                    "children": Array [],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "aria-disabled": "false",
+                        "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "MuiIconButton-label",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "aria-label": "checkbox with default color",
+                                "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                "type": "checkbox",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                            },
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiSwitch-thumb",
+                              },
+                              "children": Array [],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "span",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "css-1o6ajog",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "ONLINE: ",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "b",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "class": "css-j4i0ab",
+              },
+              "children": Array [
+                Object {
+                  "data": "PLAYGROUND",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": Object {
+          "attribs": Object {
+            "class": "css-1mzzuk6",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "css-elb7vf",
+                "href": "/About",
+              },
+              "children": Array [
+                Object {
+                  "data": "About",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "class": "css-elb7vf",
+                  "href": "/Todos",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Todos",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "href": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "href": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+            },
+            Object {
+              "attribs": Object {
+                "class": "css-elb7vf",
+                "href": "/Todos",
+              },
+              "children": Array [
+                Object {
+                  "data": "Todos",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Object {
+                "attribs": Object {
+                  "class": "css-elb7vf",
+                  "href": "/About",
+                },
+                "children": Array [
+                  Object {
+                    "data": "About",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "href": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "href": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": [Circular],
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+      Object {
+        "attribs": Object {
+          "class": "css-1mzzuk6",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "css-elb7vf",
+              "href": "/About",
+            },
+            "children": Array [
+              Object {
+                "data": "About",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "class": "css-elb7vf",
+                "href": "/Todos",
+              },
+              "children": Array [
+                Object {
+                  "data": "Todos",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {
+              "class": "css-elb7vf",
+              "href": "/Todos",
+            },
+            "children": Array [
+              Object {
+                "data": "Todos",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "class": "css-elb7vf",
+                "href": "/About",
+              },
+              "children": Array [
+                Object {
+                  "data": "About",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "href": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": Object {
+          "attribs": Object {
+            "class": "css-u2ayx9",
+          },
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "class": "css-j4i0ab",
+              },
+              "children": Array [
+                Object {
+                  "data": "PLAYGROUND",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "a",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Object {
+                "attribs": Object {
+                  "class": "css-1bce3a6",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "css-1o6ajog",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "ONLINE: ",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "b",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "MuiSwitch-root",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "aria-disabled": "false",
+                            "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiIconButton-label",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "class": "MuiSwitch-thumb",
+                                    },
+                                    "children": Array [],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-label": "checkbox with default color",
+                                      "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                      "type": "checkbox",
+                                    },
+                                    "children": Array [],
+                                    "name": "input",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "MuiSwitch-track",
+                            },
+                            "children": Array [],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "MuiSwitch-track",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "aria-disabled": "false",
+                              "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiIconButton-label",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "aria-label": "checkbox with default color",
+                                      "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                      "type": "checkbox",
+                                    },
+                                    "children": Array [],
+                                    "name": "input",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {
+                                        "class": "MuiSwitch-thumb",
+                                      },
+                                      "children": Array [],
+                                      "name": "span",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                  },
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "MuiSwitch-thumb",
+                                    },
+                                    "children": Array [],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "aria-label": "checkbox with default color",
+                                        "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                        "type": "checkbox",
+                                      },
+                                      "children": Array [],
+                                      "name": "input",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "aria-label": undefined,
+                                        "class": undefined,
+                                        "type": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "aria-label": undefined,
+                                        "class": undefined,
+                                        "type": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "aria-disabled": undefined,
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "aria-disabled": undefined,
+                              "class": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "MuiSwitch-root",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "aria-disabled": "false",
+                          "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiIconButton-label",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "MuiSwitch-track",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                      },
+                      Object {
+                        "attribs": Object {
+                          "class": "MuiSwitch-track",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "aria-disabled": "false",
+                            "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiIconButton-label",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "class": "MuiSwitch-thumb",
+                                    },
+                                    "children": Array [],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-label": "checkbox with default color",
+                                      "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                      "type": "checkbox",
+                                    },
+                                    "children": Array [],
+                                    "name": "input",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "css-1o6ajog",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "ONLINE: ",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "b",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            Object {
+              "attribs": Object {
+                "class": "css-1bce3a6",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "css-1o6ajog",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "ONLINE: ",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "b",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "MuiSwitch-root",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "aria-disabled": "false",
+                          "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiIconButton-label",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "MuiSwitch-track",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                      },
+                      Object {
+                        "attribs": Object {
+                          "class": "MuiSwitch-track",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "aria-disabled": "false",
+                            "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiIconButton-label",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "class": "MuiSwitch-thumb",
+                                    },
+                                    "children": Array [],
+                                    "name": "span",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-label": "checkbox with default color",
+                                      "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                      "type": "checkbox",
+                                    },
+                                    "children": Array [],
+                                    "name": "input",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-label": undefined,
+                                      "class": undefined,
+                                      "type": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "aria-disabled": undefined,
+                            "class": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                Object {
+                  "attribs": Object {
+                    "class": "MuiSwitch-root",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "aria-disabled": "false",
+                        "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "MuiIconButton-label",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "aria-label": "checkbox with default color",
+                                "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                "type": "checkbox",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "aria-label": undefined,
+                                "class": undefined,
+                                "type": undefined,
+                              },
+                            },
+                            Object {
+                              "attribs": Object {
+                                "class": "MuiSwitch-thumb",
+                              },
+                              "children": Array [],
+                              "name": "span",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "MuiSwitch-track",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-disabled": undefined,
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "MuiSwitch-track",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "aria-disabled": "false",
+                          "class": "MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "MuiIconButton-label",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "aria-label": "checkbox with default color",
+                                  "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                  "type": "checkbox",
+                                },
+                                "children": Array [],
+                                "name": "input",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "MuiSwitch-thumb",
+                                  },
+                                  "children": Array [],
+                                  "name": "span",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-label": undefined,
+                                  "class": undefined,
+                                  "type": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "MuiSwitch-thumb",
+                                },
+                                "children": Array [],
+                                "name": "span",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-label": "checkbox with default color",
+                                    "class": "PrivateSwitchBase-input-4 MuiSwitch-input",
+                                    "type": "checkbox",
+                                  },
+                                  "children": Array [],
+                                  "name": "input",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-label": undefined,
+                                    "class": undefined,
+                                    "type": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-disabled": undefined,
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "span",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "css-1o6ajog",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "ONLINE: ",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "b",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Object {
+                "attribs": Object {
+                  "class": "css-j4i0ab",
+                },
+                "children": Array [
+                  Object {
+                    "data": "PLAYGROUND",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "a",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+          ],
+          "name": "div",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": [Circular],
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {
+            "class": undefined,
+          },
+          "x-attribsPrefix": Object {
+            "class": undefined,
+          },
+        },
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "header",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;

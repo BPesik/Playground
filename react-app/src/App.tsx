@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "./components/Header/index"
+import Header from "./components/header/index"
 import Footer from "./components/Footer/index"
 import {
   Switch,
