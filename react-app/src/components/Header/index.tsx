@@ -8,7 +8,7 @@ import { updateOnlineStatus } from "../../store/online-status/actions";
 import { useDispatch } from "react-redux";
 
 const StyledHeader = styled.header`
-    background-color: #282c34;
+    background-color: grey;
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 2vmin);

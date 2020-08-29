@@ -1,0 +1,19 @@
+import Switch from "./index";
+import { Props } from "@storybook/addon-docs/blocks";
+
+<Meta title="Switch" 
+    component={Switch} 
+    argTypes={{}}
+/>
+
+export const Template = (args) => <Switch {...args} />;
+
+<Canvas>
+    <Story name="Primary" args={{}}>
+        {Template.bind({})}
+    </Story>
+</Canvas> 
+
+# Switch
+
+The Switch component requires no properties

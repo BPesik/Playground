@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "enzyme";
-import Footer from "./index"
+import Footer from "./index";
 
 describe("The Footer component", () => {
     const wrapper = render(<Footer />)

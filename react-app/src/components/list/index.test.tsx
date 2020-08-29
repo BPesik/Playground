@@ -4,7 +4,7 @@ import List from "./index";
 
 const items = ["item one", "item two", "item three"];
 
-describe("The DynamicTable component", () => {
+describe("The List component", () => {
     const wrapper = render(<List items={items} onClick={() => { }}/>)
     
     it("should match snapshot", () => {
